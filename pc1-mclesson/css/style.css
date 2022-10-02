@@ -1,1 +1,85 @@
-/* Write CSS code here */
+section{
+  background-color:#047ade ;
+}
+.header{
+  background-color:#002044;
+ border: 4px solid #011a37;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#a{
+  color: white;
+ text-decoration: none;
+
+}
+.hero{
+  display: grid;
+  grid-template-columns: 500px 550px;
+  margin-left: 100px;
+  height: 330px;
+ padding-top: 100px;
+}
+.h2{ 
+  font-size: xx-large;
+  margin-left: 100px;
+  color: white;
+  display: inline-flex ;
+  justify-content: flex-start;
+ 
+ 
+}
+p{
+  color: white;
+  font-size: larger;
+  margin-left: 20px;
+ 
+}
+.button{
+  background-color: #047ade;
+  border: 2px wheat solid;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 20px;
+  color: white;
+}
+.div{
+  background-color: beige;
+  border-radius: 3%;
+  margin-top: 40px;
+  margin-left: 40px;
+  border: 2px solid gray;
+  box-shadow:1px 1px 1px 1px black;
+  height: 200px;
+
+}
+h2{
+  font-family: Lato;
+  margin-left: 55px;
+ 
+}
+li{
+  list-style-type: none;
+  font-size: large;
+ margin-left: 20px;
+ 
+}
+.h1{
+  font-size: xx-large;
+  color: white;
+  margin-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.li{
+  display: inline;
+
+}
+.ul{
+  justify-content: end;
+}
+.container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: -50px 60px 30px -50px;
+}
